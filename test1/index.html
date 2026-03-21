@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description" content="A premium portfolio showcasing creative development and minimalist design.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="container">
+            <div class="logo">Portfolio.</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <h1 class="reveal">Creating Digital <span class="gradient-text">Experiences</span></h1>
+                <p class="reveal">Focused on minimalist design and premium user interactions.</p>
+                <div class="hero-btns reveal">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-bg"></div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I am a passionate developer with a keen eye for design. I believe in the power of simplicity and elegance in every line of code and every pixel on the screen.</p>
+                        <p>With years of experience in the industry, I've helped brands build stunning digital products that stand out.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">Selected Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card reveal">
+                        <div class="project-img" style="background: url('assets/project1.png') center center/cover;"></div>
+                        <div class="project-info">
+                            <h3>Project Alpha</h3>
+                            <p>Premium SaaS Platform</p>
+                            <a href="#" class="project-link">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="project-card reveal">
+                        <div class="project-img" style="background: url('assets/project2.png') center center/cover;"></div>
+                        <div class="project-info">
+                            <h3>Project Beta</h3>
+                            <p>E-commerce Experience</p>
+                            <a href="#" class="project-link">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="project-card reveal">
+                        <div class="project-img" style="background: url('assets/project3.png') center center/cover;"></div>
+                        <div class="project-info">
+                            <h3>Project Gamma</h3>
+                            <p>AI-driven Dashboard</p>
+                            <a href="#" class="project-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">Frontend Development</div>
+                    <div class="skill-item">UI/UX Design</div>
+                    <div class="skill-item">Creative Coding</div>
+                    <div class="skill-item">Brand Identity</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="contact-content">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
